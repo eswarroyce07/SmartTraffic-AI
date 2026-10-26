@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# ML artefacts
+backend/app/ml/models_saved/*.pkl
+backend/app/ml/models_saved/training_results.json
+backend/app/ml/data/
+
+# Env files
+.env
+backend/.env
+frontend/.env
+
+# Uploads
+backend/uploads/
+
+# Logs
+backend/logs/
+*.log
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+*.DS_Store
